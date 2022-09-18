@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+}
+
+.pad-b {
+    padding: 1%;
+}
+
+.left {
+    text-align: left;
+}
+
+.playfair {
+    font-family: 'Playfair Display', sans-serif;
+}
+
+p {
+    font-family: 'Domine', serif;
+}
+
+.subscript {
+    text-align: right;
+}
+
+.main-title {
+    font-size: 5em;
+}
+
+.light-grey {
+    background-color: #f4f0ec;
+}
+
+.text-grey {
+    color : #f4f0ec;
+}
+
+.color-nav {
+    background-color: #001747;
+    color: white;
+}
