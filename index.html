@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!-- add some new fonts, some images, some colors and fuck off. -->
+    <section id="navbar" class="color-nav">
+      <div class="container container-fluid">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand color-nav playfair"  href="">My Portfolio</a>
+          <button
+            class="navbar-toggler color-nav"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse ms-auto"
+            id="navbarTogglerDemo01"
+          >
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item ms-auto">
+                <a class="nav-link text-grey" href="#footer">Contact Me</a>
+              </li>
+              <li class="nav-item ms-auto">
+                <a class="nav-link text-grey" href="#Projects">Projects</a>
+              </li>
+              <li class="nav-item ms-auto">
+                <a class="nav-link text-grey" href="#hobbies">About Me</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+      </div>
+    </section>
+
+    <section id="title" style="background-color: #e3f2fd" class="pad-b">
+      <div class="container container-fluid">
+        <div class="row">
+          <h1 class="main-title playfair">Aatreya Kapoor</h1>
+          <h6 class="subscript">-A Budding Fullstack Developer</h6>
+        </div>
+        <div class="row">
+          <h3>Profile:</h3>
+          <p>
+            I am a aspiring Fullstack Developer who currently works with the
+            MERN tech stack for Fullstack Web Development. I am also good with
+            C++ and do coding challenges in that language among other things.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="pad-b">
+      <div class="container">
+        <div class="row">
+          <img src="" alt="" />
+          <h2 class="playfair">My Programming Skillsets:</h2>
+          <div class="left">
+            <p>
+              LANGUAGES: C, C++, Python, Javascript <br />
+
+              FRONT-END WEB DEVELOPMENT: HTML, CSS and Javascript, the Document
+              Object Model in Javascript, API requests and fetching data from
+              APIs, CSS frameworks including Bootstrap and Bulma, Javascript
+              libraries like ReactJS. <br />
+
+              BACK-END WEB DEVELOPMENT: Worked with NodeJS, databases like
+              MongoDB and MySQL, and NodeJS web frameworks like Express. <br />
+
+              OTHER SKILLS TO COMPLEMENT MY DEVELOPMENT: APIs to geocode and
+              display maps like mapbox, cloud image storage APIs like
+              cloudinary, middleware APIs for the same like multer, verification
+              middleware APIs like joi, APIs for website security like helmet
+              and sanitize-html, dynamic html formats like embedded js
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Projects" style="background-color: #e3f2fd" class="pad-b">
+      <div class="container">
+        <div
+          id="Testimonial-Carousel"
+          class="carousel slide"
+          data-bs-ride="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2 class="testimonial-text playfair">Yelp-Camp</h2>
+              <em>A E-Commerce Website</em>
+              <p>
+                A decently big project, it allows users to authenticate and
+                login, while also acting as e-commerce website for Campgrounds.
+                It uses Express, NodeJS and MongoDB(Mongo Atlas) to implement
+                the backend part of the app. Cloudinary is used for image
+                storage, helmet, sanitize-html and express-mongo-sanitize have
+                been used to implement the basic security. Passport is used to
+                implement authentication. Mapbox is used for showing maps and
+                displaying campgrounds on the map along with geocoding the
+                locations. HTML, CSS, Bootstrap and JavaScript have been used to
+                implement the frontend part of the application, along with the
+                use of various features like DOM. And Heroku has been used for
+                deployment of the app.
+              </p>
+            </div>
+            <div class="carousel-item">
+              <h2 class="testimonial-text playfair">Expenses Tracker</h2>
+              <em>A Frontend React Application</em>
+              <p>
+                A Frontend React application to keep tracking any expenses,
+                which also displays your expenses in relation to highest spent
+                near that month. Uses most of the basic react functionalities,
+                like components, react-dom and useState to implement different
+                states of the app. The styling is done via CSS only.
+              </p>
+            </div>
+            <div class="carousel-item">
+              <h2 class="testimonial-text playfair">To-Do List</h2>
+              <em>A Frontend React Application</em>
+              <p>
+                Another application that uses react, using all basic react
+                functionalities like components and useState and providing all
+                basic To-Do List functionalities. However the styled-components
+                package has been used for CSS styling.
+              </p>
+            </div>
+            <div class="carousel-item">
+              <h2 class="testimonial-text playfair">QR-Code Scanner and Generator</h2>
+              <em>A Vanilla Javascript Project</em>
+              <p>
+                This is one of those Projects that's done in HTML, CSS and
+                Vanilla Javascript. The jsQR library allows us to convert QR
+                codes into text, while the HTML canvas element allows for easy
+                detection of the code. On the other hand, the qrcodejs library
+                allows us to generate QR codes from text easily.
+              </p>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#Testimonial-Carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#Testimonial-Carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="hobbies" class="pad-b">
+      <div class="container">
+        <div class="row">
+          <img src="" alt="" />
+          <h4>Other skills/hobbies I have/would love to have:</h4>
+          <p>
+            I love Tricks and Mentalism, and I also love mysteries. Plus I am
+            also a martial arts nerd.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="contact-me">
+        <div class="container">
+            <h2>Get in touch:</h2>
+            <h5>If we share anything at all :)</h5>
+            <p></p>
+            <a class="btn" href="contactme.html">Contact me via Email</a>
+        </div>
+    </section> -->
+
+    <footer id="footer" class="light-grey">
+      <div class="container">
+        <a class="footer-link" href="https://www.linkedin.com/">linkedin</a>
+        <a class="footer-link" href="https://www.instagram.com/kapoor_aatreya_/"
+          >instagram</a
+        >
+        <a class="footer-link" href="https://github.com/bugger69">Github</a>
+        <p>© Aatreya</p>
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
